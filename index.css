@@ -1,18 +1,19 @@
 .hero-section{
     font-family:Arial,sans-serif;
-    font-size:16px;
+    font-size:24px;
     text-align:center;
     color:aliceblue;
 }
 #main-title{
     color:aqua;
     text-align:center;
-    font-size:32px;
+    font-size:64px;
     font-weight:bold;
 }
 header {
     background-color:black;
 }
-.nav{
+.navbar{
     color: aliceblue;
+    font-size:18px ;
 }
