@@ -1,19 +1,178 @@
-.hero-section{
-    font-family:Arial,sans-serif;
-    font-size:24px;
-    text-align:center;
-    color:aliceblue;
+.box3{
+
+    flex-grow:1;
+
+    /* margin-left:50px; */
+
+    color:white;
 }
+
+.box3 h1{
+
+    font-size:50px;
+
+    margin-bottom:20px;
+}
+
+.box3 p{
+
+    font-size:22px;
+
+    color:#ddd;
+}
+
 #main-title{
     color:aqua;
     text-align:center;
-    font-size:64px;
+    font-size:54px;
     font-weight:bold;
 }
-header {
+/* header {
     background-color:black;
+} */
+
+   
+   
+
+.box3 {
+    align-self:center;
+    flex-grow:1;
 }
-.navbar{
-    color: aliceblue;
-    font-size:18px ;
+
+
+header span{
+
+    color:#1abc9c;
+
+    font-weight:bold;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#f4f7fb;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#333;
+}
+.container2{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:space-around;
+
+    background:linear-gradient(135deg,#141e30,#243b55);
+
+    padding:60px 40px;
+}
+.box1 img{
+
+    width:220px;
+    height:220px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    border:5px solid #1abc9c;
+
+    box-shadow:0px 0px 25px rgba(0,0,0,.4);
+}
+
+
+   .box2{
+
+    width:100%;
+
+    margin-top:40px;
+
+    text-align:center;
+}
+.box2 a{
+
+    text-decoration:none;
+
+    color:white;
+
+    margin:20px;
+
+    font-size:18px;
+
+    transition:.3s;
+}
+.box2 a:hover{
+
+    color:#1abc9c;
+}
+.container{
+
+    width:80%;
+
+    margin:50px auto;
+}
+.card{
+
+    background:white;
+
+    padding:30px;
+
+    margin-bottom:30px;
+
+    border-radius:15px;
+
+    box-shadow:0px 5px 20px rgba(0,0,0,.15);
+
+    transition:.3s;
+}
+.card:hover{
+
+    transform:translateY(-8px);
+}
+.card h2{
+
+    color:#1abc9c;
+
+    margin-bottom:20px;
+
+    border-bottom:3px solid #1abc9c;
+
+    display:inline-block;
+
+    padding-bottom:5px;
+}
+.box{
+
+    margin-top:20px;
+
+    color:#243b55;
+}
+ol{
+
+    padding-left:20px;
+
+    line-height:2;
+}
+.card a{
+
+    color:#1abc9c;
+
+    text-decoration:none;
+}
+.card a:hover{
+
+    text-decoration:underline;
+}
+footer{
+    background:#141e30;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:50px;
+}
+
+footer p{
+    font-size:16px;
+    letter-spacing:1px;
 }
